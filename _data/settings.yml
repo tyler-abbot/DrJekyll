@@ -1,0 +1,17 @@
+#----------------------
+# About section
+
+blurb: <p><strong>Chemistry, medicine, and the human condition.</strong> I am a budding chemist, soon to be on the job market. My research interests are in the areas of psychological disorders, chemical imbalances, and psychiatric pharmacology. My doctoral disertation was on repressing psychotic tendancies with household serums and I plan to continue this research... at all costs.</p>
+
+#----------------------
+# Courses section
+courses:
+  - {title: Intro to Chem, semester: Fall 1885, school: King's College London, description: Teaching students chemistry isn't only for witches.}
+  - {title: Advanced Psychiatric Medicine, semester: Spring 1885, school: King's College London, description: "At the time, mainly lobotomy."}
+  - {title: Diseases of the Mind, semester: Fall 1884, school: King's College London, description: Survey course. Mainly taught by example...}
+#----------------------
+# Contact
+contact-info: <p>Henry Jekyll<br>King's College London<br>Department of Chemistry<br>Strand<br>London<br>WC2R 2LS<br>United Kingdom</p>
+
+contact-links:
+  - {contact-text: Github, contact-link: "https://www.google.com", icon: 'favicon.html'}

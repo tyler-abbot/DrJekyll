@@ -1,0 +1,17 @@
+<section class="contact-section">
+  <div>
+    <h3 id="contact">Contact</h3>
+    <div class="contact-info">
+      {{ site.data.settings.contact-info }}
+    </div>
+  </div>
+  <div>
+    <div class="contact-links">
+      {% for link in site.data.settings.contact-links %}
+      <a href={{ link.contact-link }} class="contact-link">
+        <div class="contact-icon">{% include {{ link.icon }} %}</div>{{ link.contact-text }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

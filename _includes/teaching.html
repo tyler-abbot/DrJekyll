@@ -1,0 +1,12 @@
+<section class="alt-section">
+  <h3 id="teaching">Teaching</h3>
+
+  <div class="teaching-list">
+    {% for course in site.data.settings.courses %}
+
+    <div class="course">
+      <a href="">{{ course.title }}. {{ course.school }}. {{ course.semester }}</a> {{ course.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

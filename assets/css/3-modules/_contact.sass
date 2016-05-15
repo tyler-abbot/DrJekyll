@@ -1,0 +1,73 @@
+.contact-section
+  max-width: 960px
+  margin: 0 auto
+  float: none
+  padding: 20px 20px
+  +display(flex)
+  +align-items(center)
+  +clearfix
+
+.contact-info
+  max-width: 200px
+  margin: 0 auto
+  float: left
+  padding: 0px 20px
+
+.contact-icon
+  +size(50px)
+  background: $bg-color
+  float: left
+  path
+    fill: rgba(0,0,0,0.7)
+  +clearfix
+
+.contact-link
+  margin: 0 auto
+  float: left
+  +display(flex)
+  +align-items(center)
+  +clearfix
+  padding: 10px 10px
+
+.contact-links
+  float: right
+  max-width: 500px
+  +display(flex)
+  flex-direction: row
+  margin: 0px 50px
+  flex-wrap: wrap
+  +align-items(center)
+  +justify-content(space-around)
+
+  a
+    text-align: center
+    margin: 0 auto
+
+h3
+  padding: 0 20px
+  @extend %small-bold
+  text-align: left
+
+@media screen and (max-width: 650px)
+  .contact-links
+    display: block
+    width: 100
+    text-align: center
+    float: none
+    margin-left: auto
+    margin-right: auto
+    +display(flex)
+    flex-direction: row
+    flex-wrap: wrap
+    +align-items(center)
+    +justify-content(space-around)
+    .contact-link
+      +display(flex)
+      +align-items(center)
+      +clearfix
+    .contact-info
+      display: block
+      width: auto
+      margin-left: auto
+      margin-right: auto
+      text-align: center

@@ -1,0 +1,56 @@
+section
+  max-width: 960px
+  margin: 0 auto
+  float: none
+  padding: 20px 20px
+
+
+.about-lockup
+  max-width: 860px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-around)
+
+  .face
+    +size(200px 220px)
+    background: url(/assets/img/bio-photo.png)
+    background-size: cover
+    order: 1
+
+  .about-txt
+    +size(600px auto)
+    order: 2
+    text-align: left
+    h3
+      margin-left: -20px
+      padding-top: 10
+      @extend %small-bold
+      text-align: left
+
+@media screen and (max-width: 650px)
+  .about-lockup
+    display: block
+    text-align: center
+    div
+      display: inline-block
+    .face
+      display: block
+      background-postion: center center
+      background-repeat: no-repeat
+      width: 200px
+      margin-left: auto
+      margin-right: auto
+    .about-txt
+      display: block
+      width: auto
+      margin-left: auto
+      margin-right: auto
+      h3
+        margin-left: -11px
+  .blurb
+    max-width: 600px
+    padding: 0 10px
+    margin: 0 auto
+    font-size: 16px
+    font-weight: 100
