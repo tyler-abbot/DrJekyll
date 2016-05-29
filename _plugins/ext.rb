@@ -9,7 +9,7 @@ module HTMLFilter
         value = ""
         for index in 0 ... links_list.size
           link_text = links_list[index].slice!(URI.regexp(['LINK'])).to_s.slice(5..-1)
-          links_list[index] = "[<a href=\"#{links_list[index]}\">#{link_text}</a>]"
+          links_list[index] = "[<a href=\"#{links_list[index]}\" target=\"_blank\">#{link_text}</a>]"
           value = value + links_list[index]
         end
       end

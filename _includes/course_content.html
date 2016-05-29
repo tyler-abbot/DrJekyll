@@ -1,0 +1,27 @@
+<section class="course_section">
+  <div style="background-image: url({{ site.url }}{{ page.course_image }}" class="course_image"></div>
+  <h1>{{ page.course_title }}</h1>
+  <div class="course_description">
+    {{ page.course_description }}
+  </div>
+  <h2>Course Information</h2>
+  <div class="course_information">
+    {% for info in page.course_information %}
+      {% for datum in info %}
+        <div class="course_data">
+          <strong>{{ datum[0] }}</strong> {{ datum[1] }}
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+  <h2>Lectures</h2>
+  <div class="lecture_list">
+    {% for lecture in site.static_files %}
+      {% if lecture.path contains page.course_folder %}
+        {% if lecture.path contains "lectures" %}
+        <a class="lecture_links" href="{{ site.url }}/{{ lecture.path }}" target="_blank">{{lecture.path | split: "/" | last }}</p>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

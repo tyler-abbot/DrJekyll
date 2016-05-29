@@ -5,7 +5,7 @@
     {% for course in site.data.settings.courses %}
 
     <div class="course">
-      <a href="">{{ course.title }}. {{ course.school }}. {{ course.semester }}</a> {{ course.description }}</p>
+      <a href="{{ course.link }}" target="_blank">{{ course.title }}. {{ course.school }}. {{ course.semester }}</a> {{ course.description }}</p>
     </div>
     {% endfor %}
   </div>

@@ -254,6 +254,8 @@ header {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.7);
     text-transform: uppercase; }
+    header h1:hover {
+      color: black; }
 
 footer {
   height: 100px;
@@ -570,3 +572,58 @@ h3 {
       margin-left: auto;
       margin-right: auto;
       text-align: center; } }
+.course_image {
+  float: right;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  margin: 0px 20px 20px 20px;
+  padding: 20px 20px; }
+
+.course_section {
+  max-width: 960px;
+  margin: 0 auto;
+  float: none;
+  padding: 20px 20px; }
+  .course_section h1 {
+    margin: 20px 0px 0px 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase; }
+  .course_section h2 {
+    margin: 20px 0px 0px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase; }
+
+.course_description {
+  margin: 20px 0px 50px 20px;
+  display: block;
+  width: auto;
+  font-size: 18px; }
+
+.course_information {
+  margin: 20px 0px 50px 0px;
+  display: block;
+  width: auto;
+  font-size: 18px; }
+
+.course_data {
+  margin: 0px 0px 0px 20px;
+  display: block;
+  width: auto;
+  font-size: 18px; }
+
+.lecture_links {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  font-size: 18px; }
+
+.lecture_list {
+  margin: 20px 0px 0px 20px;
+  display: block;
+  width: auto;
+  font-size: 18px; }

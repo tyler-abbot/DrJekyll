@@ -6,9 +6,9 @@ blurb: <p><strong>Chemistry, medicine, and the human condition.</strong> I am a 
 #----------------------
 # Courses section
 courses:
-  - {title: Intro to Chem, semester: Fall 1885, school: King's College London, description: Teaching students chemistry isn't only for witches.}
-  - {title: Advanced Psychiatric Medicine, semester: Spring 1885, school: King's College London, description: "At the time, mainly lobotomy."}
-  - {title: Diseases of the Mind, semester: Fall 1884, school: King's College London, description: Survey course. Mainly taught by example...}
+  - {title: Intro to Chem, semester: Fall 1885, school: King's College London, description: Teaching students chemistry isn't only for witches., link: courses/temp_course }
+  - {title: Advanced Psychiatric Medicine, semester: Spring 1885, school: King's College London, description: At the time, mainly lobotomy., link: courses/temp_course }
+  - {title: Diseases of the Mind, semester: Fall 1884, school: King's College London, description: Survey course. Mainly taught by example., link: courses/temp_course }
 #----------------------
 # Contact
 contact-info: <p>Henry Jekyll<br>King's College London<br>Department of Chemistry<br>Strand<br>London<br>WC2R 2LS<br>United Kingdom</p>
